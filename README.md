@@ -1,0 +1,10 @@
+# Vizualização de dados em Python - Subtração de veículos em São Paulo
+
+Por utilizar funções geográficas interativas, o notebook deste projeto é melhor visualizado neste [link](https://nbviewer.org/github/iagolcarvalho/data-viz-python-ssp-veiculos/blob/main/Data%20Viz%20-%20Subtra%C3%A7%C3%A3o%20Ve%C3%ADculos%20SP.ipynb), com a utilização do nbviewer.
+
+Neste projeto são exploradas algumas técnicas em Python para performar a visualização de dados estruturados, numéricos e categóricos. Para tal, foi utilizada a base de dados de ocorrências policiais envolvendo veículos disponibilizada pela Secretaria de Segurança Pública (SSP) do Estado de São Paulo em seu [Portal da Transparência](http://www.ssp.sp.gov.br/transparenciassp/Consulta2023.aspx). Complementarmente, foram utilizados o mapa de limites administrativos dos distritos de São Paulo, disponibilizados pela Prefeitura de São Paulo no portal [GeoSampa](https://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx), e a base de distritos por cinco regiões da cidade de São Paulo, disponibilizados pela Fundação Seade em seu [repositório de dados públicos](https://repositorio.seade.gov.br/dataset/codigos-nomes-dos-distritos-do-municipio-de-sao-paulo/resource/c25069e9-49c4-4b59-844a-3609cb223adf).
+
+Entre as ferramentas utilizadas com foco em visualização de dados, destacam-se os projetos [GeoPandas](https://geopandas.org/en/stable/index.html), para manipulação de dados geoespaciais(shapefiles), e a biblioteca [Seaborn](https://seaborn.pydata.org/index.html), que proporciona uma interface de alto nível, baseada na tradicional Matplotlib, para geração de gráficos estatísticos estilizados.
+
+## Importante!
+Apesar dos dados utilizados serem de fontes oficiais de órgãos públicos, os indicadores aqui apresentados não devem ser interpretados como verídicos, visto que **não houve qualquer acompanhamento ou validação dessas informações por parte de membros da administração pública**. Sendo assim, a leitura deste material deve ser feita considerando-se apenas como um exercício de visualização de dados com a utilização de ferramentas baseadas em Python.
